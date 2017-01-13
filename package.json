@@ -1,0 +1,22 @@
+{
+  "name": "tender",
+  "version": "1.0.0",
+  "description": "I will tend to all your asset needs.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dashboard -- webpack --progress --color --watch"
+  },
+  "author": "Florian Gächter <florian.gaechter@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "normalize.css": "^5.0.0",
+    "postcss": "^5.2.10",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-import": "^9.1.0",
+    "postcss-loader": "^1.2.2",
+    "webpack": "^2.2.0-rc.4"
+  }
+}

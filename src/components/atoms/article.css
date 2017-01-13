@@ -1,0 +1,21 @@
+/* components/atoms/article.css */
+
+.a-article {
+  box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+
+  & a {
+    color: var(--color-blue);
+  }
+
+  & p {
+    color: var(--color-black);
+    font-family: var(--font-text);
+    font-weight: var(--font-weight);
+    line-height: var(--line-height);
+  }
+
+  @media (width > 600px) {
+    max-width: 30em;
+  }
+}
